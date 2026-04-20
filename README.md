@@ -1,2 +1,2 @@
 # Lifeary-Learn
-priactice-based &amp; conceptual learning
+priactice-based &amp; conceptual understanding

@@ -1,0 +1,4 @@
+- modules/ →  build features
+- themes/ → UI customization
+- bundles/ → Liferay server
+- gradle/ → build system

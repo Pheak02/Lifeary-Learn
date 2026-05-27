@@ -1,6 +1,6 @@
-package lifeary.learn.mvc.portlet.portlet;
+package com.read.book.web.portlet;
 
-import lifeary.learn.mvc.portlet.constants.PersonBlogPortletKeys;
+import com.read.book.web.constants.MyWebPortletKeys;
 
 import com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet;
 
@@ -16,14 +16,14 @@ import org.osgi.service.component.annotations.Component;
 		"com.liferay.portlet.display-category=category.sample",
 		"com.liferay.portlet.header-portlet-css=/css/main.css",
 		"com.liferay.portlet.instanceable=true",
-		"javax.portlet.display-name=PersonBlog",
+		"javax.portlet.display-name=MyWeb",
 		"javax.portlet.init-param.template-path=/",
 		"javax.portlet.init-param.view-template=/view.jsp",
-		"javax.portlet.name=" + PersonBlogPortletKeys.PERSONBLOG,
+		"javax.portlet.name=" + MyWebPortletKeys.MYWEB,
 		"javax.portlet.resource-bundle=content.Language",
 		"javax.portlet.security-role-ref=power-user,user"
 	},
 	service = Portlet.class
 )
-public class PersonBlogPortlet extends MVCPortlet {
+public class MyWebPortlet extends MVCPortlet {
 }

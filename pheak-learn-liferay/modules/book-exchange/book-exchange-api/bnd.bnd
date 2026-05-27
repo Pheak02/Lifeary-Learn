@@ -1,0 +1,10 @@
+Bundle-Name: book-exchange-api
+Bundle-SymbolicName: com.read.book.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.read.book.exception,\
+	com.read.book.model,\
+	com.read.book.service,\
+	com.read.book.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../book-exchange-service/service.xml

@@ -1,0 +1,7 @@
+Bundle-Name: book-exchange-web
+Bundle-SymbolicName: com.read.book.web
+Bundle-Version: 1.0.0
+Export-Package: com.read.book.web.constants
+Provide-Capability:\
+	liferay.language.resources;\
+		resource.bundle.base.name="content.Language"

@@ -1,0 +1,12 @@
+dependencies {
+	api project(":modules:book-exchange:book-exchange-api")
+
+	compileOnly group: "com.liferay.portal", name: "release.portal.api"
+}
+
+buildService {
+	apiDir = "../book-exchange-api/src/main/java"
+	testDir = "../book-exchange-test/src/testIntegration/java"
+}
+
+group = "com.read.book"

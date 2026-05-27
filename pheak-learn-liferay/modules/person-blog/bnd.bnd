@@ -1,7 +1,0 @@
-Bundle-Name: person-blog
-Bundle-SymbolicName: lifeary.learn.mvc.portlet
-Bundle-Version: 1.0.0
-Export-Package: lifeary.learn.mvc.portlet.constants
-Provide-Capability:\
-	liferay.language.resources;\
-		resource.bundle.base.name="content.Language"

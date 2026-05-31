@@ -1,0 +1,7 @@
+Bundle-Name: profile-web
+Bundle-SymbolicName: com.profile.web
+Bundle-Version: 1.0.0
+Export-Package: com.profile.web.constants
+Provide-Capability:\
+	liferay.language.resources;\
+		resource.bundle.base.name="content.Language"

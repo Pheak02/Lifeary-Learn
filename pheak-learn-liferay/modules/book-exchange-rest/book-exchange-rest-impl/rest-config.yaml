@@ -1,0 +1,9 @@
+apiDir: "../book-exchange-rest-api/src/main/java"
+apiPackagePath: "com.read.book.rest"
+application:
+    baseURI: "/book-exchange-rest"
+    className: "BookExchangeRestApplication"
+    name: "BookExchangeRest"
+author: "saing"
+clientDir: "../book-exchange-rest-client/src/main/java"
+testDir: "../book-exchange-rest-test/src/testIntegration/java"

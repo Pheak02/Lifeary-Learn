@@ -1,5 +1,5 @@
 <%@ include file="/init.jsp" %>
 
 <p>
-	<b><liferay-ui:message key="myweb.caption"/></b>
+    <b>Hello World!</b> Welcome to my first Liferay web module.
 </p>

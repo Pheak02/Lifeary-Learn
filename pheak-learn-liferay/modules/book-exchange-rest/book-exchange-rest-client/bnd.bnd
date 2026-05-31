@@ -1,0 +1,3 @@
+Bundle-Name: book-exchange-rest-client
+Bundle-SymbolicName: com.read.book.rest.client
+Bundle-Version: 1.0.0

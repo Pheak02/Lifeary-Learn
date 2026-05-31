@@ -1,0 +1,12 @@
+dependencies {
+	api project(":modules:swap-book-rest:swap-book-rest-api")
+
+	compileOnly group: "com.liferay.portal", name: "release.portal.api"
+}
+
+buildService {
+	apiDir = "../swap-book-rest-api/src/main/java"
+	testDir = "../swap-book-rest-test/src/testIntegration/java"
+}
+
+group = "com.swap.book"

@@ -1,0 +1,10 @@
+Bundle-Name: swap-book-rest-api
+Bundle-SymbolicName: com.swap.book.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.swap.book.exception,\
+	com.swap.book.model,\
+	com.swap.book.service,\
+	com.swap.book.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../swap-book-rest-service/service.xml

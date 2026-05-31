@@ -1,0 +1,6 @@
+Bundle-Name: book-exchange-rest-api
+Bundle-SymbolicName: com.read.book.rest.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.read.book.rest.dto.v1_0,\
+	com.read.book.rest.resource.v1_0
